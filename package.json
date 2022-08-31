@@ -1,0 +1,26 @@
+{
+  "name": "gif-cut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "gifuct-js": "^2.1.2",
+    "js-binary-schema-parser": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/browserify src/js/main.js -o src/bundle/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenstt/gif-cutter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zenstt/gif-cutter/issues"
+  },
+  "homepage": "https://github.com/Zenstt/gif-cutter#readme"
+}
